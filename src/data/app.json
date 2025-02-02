@@ -1,0 +1,5 @@
+{
+    "lightLogo": "/img/darkLogo.png",
+    "darkLogo": "/img/lightLogo.png",
+    "showLoading": true
+}

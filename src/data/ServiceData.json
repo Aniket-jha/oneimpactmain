@@ -1,0 +1,46 @@
+
+
+[
+    {
+        "id": 1,
+        "title": {"first": "Digital ", "second": "Marketing"},
+        "image": "/img/services/digitalmarketing.jpg",
+        "sub": "Design",
+        "explore":"/services/digitalMarketingDetails"
+    },
+    {
+      "id": 2,
+      "title": { "first": "Content &", "second": "Creative Outreach" },
+      "image": "/img/services/content.jpg",
+      "sub": "Design",
+       "explore":"/services/contentDetails"
+    },
+    {
+      "id": 3,
+      "title": { "first": "Branding &", "second": "Strategy" },
+      "image": "/img/services/branding.jpg",
+      "sub": "Design",
+       "explore":"/services/brandingDetails"
+    },
+    {
+      "id": 4,
+      "title": { "first": "Design", "second": "" },
+      "image": "/img/services/design.jpg",
+      "sub": "Design",
+       "explore":"/services/designDetails"
+    },
+    {
+      "id": 5,
+      "title": { "first": "PRODUCTION", "second": "" },
+      "image": "/img/services/production.jpg",
+      "sub": "Design",
+       "explore":"/services/productionDetails"
+    },
+    {
+      "id": 6,
+      "title": { "first": "Public", "second": "Relations(PR)" },
+      "image": "/img/services/pr.jpg",
+      "sub": "Design",
+       "explore":"/services/prDetails"
+    }
+]

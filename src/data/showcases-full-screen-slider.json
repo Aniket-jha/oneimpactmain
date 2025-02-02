@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "title": {"first": "We Are", "second": "One Impact"},
+        "image": "/img/weare.jpg",
+        "mobileImage":"img/wearemobile.jpg",
+        "sub": "Design",
+        "explore":"/About",
+        "prev":"forward",
+        "next":"life at OI"
+    },
+    {
+      "id": 2,
+      "title": { "first": "Life at", "second": "One Impact" },
+      "image": "/img/life.jpg",
+      "mobileImage":"img/lifebannermobile.jpg",
+      "sub": "Design",
+       "explore":"/Team",
+       "prev":"we are OI",
+        "next":"our work"
+    },
+    {
+      "id": 3,
+      "title": { "first": "Our", "second": "Work" },
+      "image": "/img/ourwork.jpg",
+      "mobileImage":"/img/workmobile.jpg",
+      "sub": "Design",
+       "explore":"/comingsoon",
+       "prev":"life at OI",
+        "next":"our service"
+    },
+    {
+      "id": 4,
+      "title": { "first": "Our", "second": "Services" },
+      "image": "img/ourservices.jpg",
+      "mobileImage":"img/servicemobile.jpg",
+      "sub": "Design",
+       "explore":"/services",
+       "prev":"our work",
+        "next":"back"
+    },
+    {
+      "id": 5,
+      "title": { "first": "One Impact", "second": "Productions" },
+      "image": "img/production.jpg",
+      "mobileImage":"img/productionmobile.jpg",
+      "sub": "Design",
+       "explore":"/comingsoon",
+       "prev":"our work",
+        "next":"back"
+    }
+]
