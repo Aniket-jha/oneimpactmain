@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "yarn build && next export"
+    "export": "next export"
   },
   "dependencies": {
     "@mux/mux-video-react": "^0.7.0",
