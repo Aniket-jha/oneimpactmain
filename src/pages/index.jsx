@@ -2,11 +2,9 @@ import React,{useEffect} from "react";
 import Head from "next/head";
 import { client } from "../../lib/client";
 import ShowcaseDark from "./showcase/showcase-dark";
-import { initializeGoogleTagManager } from './googleTagManager';
+
 const Home = ({banners}) => {
-  useEffect(()=>{
-    initializeGoogleTagManager('G-KVXKVSP4TJ');
-  },[])
+  
   return (
     <>
     <Head>
