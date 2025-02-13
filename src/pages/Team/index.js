@@ -8,12 +8,11 @@ import Video2 from "../../components/Video2/video2"
 import Works from '../../components/Works/works';
 import WorksStyle1 from "../../components/Works-style1/works-style1";
 import { client } from '../../../lib/client';
-import { initializeGoogleTagManager } from '../googleTagManager';
 import Head from 'next/head';
 
 const index = ({gallery,teamData,seniorsData,blogs }) => {
   React.useEffect(()=>{
-      initializeGoogleTagManager('G-KVXKVSP4TJ');
+     
     },[])
   return (
     

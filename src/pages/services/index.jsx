@@ -3,10 +3,9 @@ import NavbarFullMenu from "../../components/Navbar-full-menu/navbar.full-menu";
 import ShowcasesFullScreenCircleSlide from "../../components/Showcases-full-screen-circle-slide/showcases-full-screen-circle-slide.jsx";
 import DarkTheme from "../../layouts/Dark";
 import Head from "next/head";
-import { initializeGoogleTagManager } from '../googleTagManager';
 const Showcase3Dark = () => {
   React.useEffect(()=>{
-    initializeGoogleTagManager('G-KVXKVSP4TJ');
+   
   },[])
   return (
     <>

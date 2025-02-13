@@ -7,7 +7,6 @@ import Footer from "../../components/Footer/footer";
 import PagesHeader from "../../components/Pages-header";
 import AboutIntro from "../../components/About-intro";
 import DarkTheme from "../../layouts/Dark";
-import { initializeGoogleTagManager } from '../googleTagManager';
 import { client } from "../../../lib/client";
 import AuthorSidebar from "../../components/author/AuthorSidebar";
 import AuthorDetail from "../../components/author/AuthorDetail";
@@ -31,7 +30,7 @@ const test = ({blogs}) => {
         navbar.classList.remove("nav-scroll");
       }
     });
-    initializeGoogleTagManager('G-KVXKVSP4TJ');
+  
   }, [navbarRef]);
   return (
     <div>
