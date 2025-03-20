@@ -7,6 +7,7 @@ import ContactHeader from "../../components/Contact-header/contact-header";
 import ContactForm from "../../components/Contact-form/contact-form";
 import { client } from "../../../lib/client";
 import Head from "next/head";
+import { GoogleAnalytics } from "@next/third-parties/google";
 const Contact = ({blogs}) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -42,6 +43,7 @@ const Contact = ({blogs}) => {
   name="description"
   content="Building 360 degree digital marketing solutions to help your brand achieve that ONE big bang IMPACT! "
 />
+<GoogleAnalytics gaId="G-YJZ32KR6QZ" />
 </Head>
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />

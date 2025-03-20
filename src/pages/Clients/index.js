@@ -12,6 +12,7 @@ import Clients2 from "../../components/Clients2/clients2"
 import Clients3 from "../../components/Clients3/clients3"
 import { client } from '../../../lib/client';
 import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google';
 const index = ({clients,blogs}) => {
 
   return (
@@ -23,6 +24,7 @@ const index = ({clients,blogs}) => {
   name="description"
   content="Building 360 degree digital marketing solutions to help your brand achieve that ONE big bang IMPACT! "
 />
+<GoogleAnalytics gaId="G-YJZ32KR6QZ" />
 </Head>
     <DarkTheme>
     <Navbar/>

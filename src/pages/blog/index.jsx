@@ -6,6 +6,9 @@ import BlogGrid from "../../components/Blog-grid/blog-grid.jsx";
 import PageHeader from "../../components/Page-header/page-header";
 import Footer from "../../components/Footer/footer";
 import { client } from "../../../lib/client";
+import Head from "next/head.js";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 const BlogGridDark = ({blogs}) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -25,10 +28,22 @@ const BlogGridDark = ({blogs}) => {
         navbar.classList.remove("nav-scroll");
       }
     });
-    initializeGoogleTagManager('G-KVXKVSP4TJ');
+  
   }, [navbarRef]);
   return (
     <DarkTheme>
+        <Head>
+        <title>Blogs</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+  name="description"
+  content="Building 360 degree digital marketing solutions to help your brand achieve that ONE big bang IMPACT! "
+/>
+<GoogleAnalytics gaId="G-YJZ32KR6QZ" />
+
+
+
+      </Head>
       <div className="circle-bg">
         <div className="circle-color fixed">
           <div className="gradient-circle"></div>

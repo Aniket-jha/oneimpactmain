@@ -15,6 +15,7 @@ import Works3 from "../../components/Works3/works3"
 import JobList from '../../components/Jobs/JobList';
 import ContactArch from '../../components/Contact-arch/contact-arch';
 import ContactHeader from '../../components/Works-header/ContactHeader';
+import { GoogleAnalytics } from '@next/third-parties/google';
 const index = ({career,blogs}) => {
      const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
@@ -55,6 +56,7 @@ const index = ({career,blogs}) => {
   name="description"
   content="Building 360 degree digital marketing solutions to help your brand achieve that ONE big bang IMPACT! "
 />
+<GoogleAnalytics gaId="G-YJZ32KR6QZ" />
 </Head>
     <DarkTheme>
       <div className="circle-bg">

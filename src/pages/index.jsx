@@ -2,7 +2,7 @@ import React,{useEffect} from "react";
 import Head from "next/head";
 import { client } from "../../lib/client";
 import ShowcaseDark from "./showcase/showcase-dark";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 const Home = ({banners}) => {
   
   return (
@@ -14,7 +14,7 @@ const Home = ({banners}) => {
   name="description"
   content="Building 360 degree digital marketing solutions to help your brand achieve that ONE big bang IMPACT! "
 />
-  
+<GoogleAnalytics gaId="G-YJZ32KR6QZ" />
 
 
 

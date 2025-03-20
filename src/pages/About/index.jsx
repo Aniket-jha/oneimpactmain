@@ -8,6 +8,8 @@ import PagesHeader from "../../components/Pages-header";
 import AboutIntro from "../../components/About-intro";
 import DarkTheme from "../../layouts/Dark";
 import { client } from "../../../lib/client";
+import Head from "next/head";
+import { GoogleAnalytics } from "@next/third-parties/google";
 const About = ({blogs,aboutContent}) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
@@ -31,6 +33,18 @@ const About = ({blogs,aboutContent}) => {
   }, [navbarRef]);
   return (
     <DarkTheme>
+       <Head>
+        <title>About</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+  name="description"
+  content="Building 360 degree digital marketing solutions to help your brand achieve that ONE big bang IMPACT! "
+/>
+<GoogleAnalytics gaId="G-YJZ32KR6QZ" />
+
+
+
+      </Head>
       <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
       <PagesHeader aboutContent={aboutContent[0]} />
       <AboutIntro aboutContent={aboutContent[0]} />
